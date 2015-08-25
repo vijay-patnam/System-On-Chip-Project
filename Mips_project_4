@@ -1,0 +1,18 @@
+//Execting the program using the MIPS Simulator//
+
+
+
+li $t1, 0x10010000
+addiu $t1, $t0,0x100
+li $t2, 1
+li $t3,1
+
+
+Loop:
+sh $t2, 0 ($t0)
+sh $t3, 2 ($t0)
+addiu $t0,$t0,4
+addiu $t2,$t2,1
+addiu $t3,$t3,2
+bne $t0,$t1, Loop
+nop
