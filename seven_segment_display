@@ -1,4 +1,4 @@
-# System-On-Chip-Project
+//To Display Letter ‘H’ or ‘L’ on Seven Segment Display//
 
 
 module sev_seg_disp(
